@@ -1,3 +1,2 @@
-tips.txt
-.RData
-.Rhistory
+venv/
+data/merged_data.csv
