@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.5)  10 DEC 2024 18:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.5)  10 DEC 2024 22:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -735,11 +735,11 @@ Package pdftex.def Info: images/amt.png  used on input line 164.
  [6
 
  <./images/fraudvsleg.png (PNG copy)> <./images/amt.png (PNG copy)>]
-<images/job_age.png, id=70, 621.6695pt x 349.55081pt>
-File: images/job_age.png Graphic file (type png)
-<use images/job_age.png>
-Package pdftex.def Info: images/job_age.png  used on input line 186.
-(pdftex.def)             Requested size: 153.64493pt x 86.39008pt.
+<images/jog_age.png, id=70, 747.03581pt x 421.08337pt>
+File: images/jog_age.png Graphic file (type png)
+<use images/jog_age.png>
+Package pdftex.def Info: images/jog_age.png  used on input line 186.
+(pdftex.def)             Requested size: 153.64493pt x 86.60535pt.
 <images/city.png, id=71, 619.45714pt x 363.56235pt>
 File: images/city.png Graphic file (type png)
 <use images/city.png>
@@ -747,7 +747,7 @@ Package pdftex.def Info: images/city.png  used on input line 186.
 (pdftex.def)             Requested size: 153.64493pt x 90.17473pt.
  [7
 
- <./images/job_age.png (PNG copy)> <./images/city.png (PNG copy)>]
+ <./images/jog_age.png (PNG copy)> <./images/city.png (PNG copy)>]
 <images/mapa.png, id=80, 453.53113pt x 403.3846pt>
 File: images/mapa.png Graphic file (type png)
 <use images/mapa.png>
@@ -770,13 +770,13 @@ Package pdftex.def Info: images/device.png  used on input line 208.
 
 ]
 
-./slides.tex:311: LaTeX Error: Too deeply nested.
+./slides.tex:309: LaTeX Error: Too deeply nested.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.311 \end{frame}
+l.309 \end{frame}
                  
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -791,7 +791,7 @@ If that doesn't work, type  X <return>  to quit.
 <images/norm.png, id=142, 331.85204pt x 228.60918pt>
 File: images/norm.png Graphic file (type png)
 <use images/norm.png>
-Package pdftex.def Info: images/norm.png  used on input line 383.
+Package pdftex.def Info: images/norm.png  used on input line 381.
 (pdftex.def)             Requested size: 122.91406pt x 84.67476pt.
  [16
 
@@ -803,7 +803,7 @@ Package pdftex.def Info: images/norm.png  used on input line 383.
 <images/dbscan.png, id=165, 342.91377pt x 272.11867pt>
 File: images/dbscan.png Graphic file (type png)
 <use images/dbscan.png>
-Package pdftex.def Info: images/dbscan.png  used on input line 445.
+Package pdftex.def Info: images/dbscan.png  used on input line 443.
 (pdftex.def)             Requested size: 122.91406pt x 97.53911pt.
  [19
 
@@ -811,7 +811,7 @@ Package pdftex.def Info: images/dbscan.png  used on input line 445.
 <images/kmeans.png, id=174, 340.70143pt x 273.59357pt>
 File: images/kmeans.png Graphic file (type png)
 <use images/kmeans.png>
-Package pdftex.def Info: images/kmeans.png  used on input line 470.
+Package pdftex.def Info: images/kmeans.png  used on input line 468.
 (pdftex.def)             Requested size: 122.91406pt x 98.70233pt.
  [20
 
@@ -824,167 +824,109 @@ Package pdftex.def Info: images/kmeans.png  used on input line 470.
 ] [24
 
 ]
+<images/rf.png, id=211, 438.78215pt x 407.07184pt>
+File: images/rf.png Graphic file (type png)
+<use images/rf.png>
+Package pdftex.def Info: images/rf.png  used on input line 565.
+(pdftex.def)             Requested size: 122.91406pt x 114.02902pt.
+ [25
 
-LaTeX Warning: File `images/rf.png' not found on input line 567.
+ <./images/rf.png (PNG copy)>]
 
-
-./slides.tex:567: Package pdftex.def Error: File `images/rf.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.567 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \vbox (17.19801pt too high) detected at line 567
- []
-
-[25
-
-]
-
-./slides.tex:580: LaTeX Error: Lonely \item--perhaps a missing list environment.
+./slides.tex:578: LaTeX Error: Lonely \item--perhaps a missing list environment.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.580 \end{frame}
+l.578 \end{frame}
                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 580
+Underfull \hbox (badness 10000) detected at line 578
 [][]
  []
 
-
-LaTeX Warning: File `images/xgb.png' not found on input line 580.
-
-
-./slides.tex:580: Package pdftex.def Error: File `images/xgb.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.580 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \vbox (9.19801pt too high) detected at line 580
- []
-
+<images/xgb.png, id=220, 401.9097pt x 465.3303pt>
+File: images/xgb.png Graphic file (type png)
+<use images/xgb.png>
+Package pdftex.def Info: images/xgb.png  used on input line 578.
+(pdftex.def)             Requested size: 122.91406pt x 142.3054pt.
 [26
 
-]
+ <./images/xgb.png (PNG copy)>]
 
-./slides.tex:593: LaTeX Error: Lonely \item--perhaps a missing list environment.
+./slides.tex:591: LaTeX Error: Lonely \item--perhaps a missing list environment.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.593 \end{frame}
+l.591 \end{frame}
                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 593
+Underfull \hbox (badness 10000) detected at line 591
 [][]
  []
 
+<images/dt.png, id=228, 435.83235pt x 414.44632pt>
+File: images/dt.png Graphic file (type png)
+<use images/dt.png>
+Package pdftex.def Info: images/dt.png  used on input line 591.
+(pdftex.def)             Requested size: 153.64493pt x 146.10182pt.
 
-LaTeX Warning: File `images/dt.png' not found on input line 593.
-
-
-./slides.tex:593: Package pdftex.def Error: File `images/dt.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.593 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \vbox (9.19801pt too high) detected at line 593
+Overfull \vbox (1.64671pt too high) detected at line 591
  []
 
 [27
 
-]
+ <./images/dt.png (PNG copy)>]
+<images/mlp.png, id=236, 380.52367pt x 412.23398pt>
+File: images/mlp.png Graphic file (type png)
+<use images/mlp.png>
+Package pdftex.def Info: images/mlp.png  used on input line 607.
+(pdftex.def)             Requested size: 138.2795pt x 149.80052pt.
 
-LaTeX Warning: File `images/mlp.png' not found on input line 609.
-
-
-./slides.tex:609: Package pdftex.def Error: File `images/mlp.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.609 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \vbox (17.19801pt too high) detected at line 609
+Overfull \vbox (13.34541pt too high) detected at line 607
  []
 
 [28
 
-]
+ <./images/mlp.png (PNG copy)>]
 
-./slides.tex:622: LaTeX Error: Lonely \item--perhaps a missing list environment.
+./slides.tex:620: LaTeX Error: Lonely \item--perhaps a missing list environment.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.622 \end{frame}
+l.620 \end{frame}
                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 622
+Underfull \hbox (badness 10000) detected at line 620
 [][]
  []
 
+<images/svm.png, id=244, 300.87918pt x 406.33438pt>
+File: images/svm.png Graphic file (type png)
+<use images/svm.png>
+Package pdftex.def Info: images/svm.png  used on input line 620.
+(pdftex.def)             Requested size: 122.91406pt x 165.99055pt.
 
-LaTeX Warning: File `images/svm.png' not found on input line 622.
-
-
-./slides.tex:622: Package pdftex.def Error: File `images/svm.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.622 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \vbox (9.19801pt too high) detected at line 622
+Overfull \vbox (21.53545pt too high) detected at line 620
  []
 
 [29
 
-] [30
+ <./images/svm.png (PNG copy)>] [30
 
 ] [31
 
@@ -1007,18 +949,18 @@ Package rerunfilecheck Info: File `slides.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21611 strings out of 476182
- 413511 string characters out of 5795595
- 1934975 words of memory out of 5000000
- 43121 multiletter control sequences out of 15000+600000
+ 21496 strings out of 476182
+ 410667 string characters out of 5795595
+ 1933975 words of memory out of 5000000
+ 43006 multiletter control sequences out of 15000+600000
  567982 words of font info for 73 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  101i,15n,107p,402b,786s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on slides.pdf (31 pages, 797776 bytes).
+Output written on slides.pdf (31 pages, 1103291 bytes).
 PDF statistics:
- 319 PDF objects out of 1000 (max. 8388607)
+ 324 PDF objects out of 1000 (max. 8388607)
  213 compressed objects within 3 object streams
  63 named destinations out of 1000 (max. 500000)
- 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 

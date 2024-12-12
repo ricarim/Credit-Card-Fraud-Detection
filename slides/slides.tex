@@ -169,7 +169,7 @@
         \begin{column}{0.5\textwidth}
             \begin{figure}
                 \centering
-                \includegraphics[width=1\textwidth]{images/job_age.png} % Replace with your transaction amount distribution image file
+                \includegraphics[width=1\textwidth]{images/jog_age.png} % Replace with your transaction amount distribution image file
                 \caption{Job Distribution by Age Group}
             \end{figure}
         \end{column}
@@ -233,13 +233,12 @@
             \item Calculated \texttt{age} by subtracting the date of birth (\texttt{dob}) from the transaction date (\texttt{unix\_time}).
             \item Grouped \texttt{age} into categorical \texttt{age\_group}:
             \begin{itemize}
-                \item Bins: \textit{16–25}, \textit{26–35}, \textit{36–45}, \textit{46–55}, \textit{56–65}, \textit{65+}.
+                \item Bins: \textit{16–30}, \textit{31–45}, \textit{46–60}, \textit{60+}.
             \end{itemize}
         \end{itemize}
         \item \textbf{Interaction Features:}
         \begin{itemize}
             \item Combined \texttt{age\_group} with \texttt{job} to create interaction variables (\texttt{job\_age\_group}).
-            \item Combined \texttt{category} with \texttt{city} to create \texttt{category\_city}.
         \end{itemize}
         \item \textbf{Cyclical Temporal Features:}
         \begin{itemize}
@@ -283,7 +282,6 @@
         \item \textbf{Replaced by Derived Features:}
         \begin{itemize}
             \item \texttt{age}: Replaced by \texttt{age\_group}.
-            \item \texttt{category}, \texttt{job}, \texttt{city}: Used to create interaction variables like \texttt{job\_age\_group} and \texttt{category\_city}.
     \end{itemize}
     \end{itemize}
 \end{frame}
@@ -506,7 +504,7 @@
         \end{itemize}
         \item \textbf{Oversampling and Undersampling Rates:}
         \begin{itemize}
-            \item Oversampling rates tested: \texttt{0.5, 0.6, 0.7} (fractions of the majority class).
+            \item Oversampling rates tested: \texttt{0.5, 0.7} (fractions of the majority class).
             \item Undersampling rates tested: \texttt{0.8, 0.9} (fractions of the total dataset for the majority class).
         \end{itemize}
     \end{itemize}
@@ -559,7 +557,7 @@
         \end{itemize}
     \begin{figure}
         \centering
-        \includegraphics[width=0.5\textwidth]{images/rf.png} % Replace with an image showing MLP and SVM visuals
+        \includegraphics[width=0.4\textwidth]{images/rf.png} % Replace with an image showing MLP and SVM visuals
         \caption{Random Forest Results Overview}
     \end{figure}
 
@@ -574,13 +572,13 @@
         \end{itemize}
     \begin{figure}
         \centering
-        \includegraphics[width=0.5\textwidth]{images/xgb.png} % Replace with an image showing MLP and SVM visuals
+        \includegraphics[width=0.4\textwidth]{images/xgb.png} % Replace with an image showing MLP and SVM visuals
         \caption{XGBoost Results Overview}
     \end{figure}
 \end{frame}
 
 \begin{frame}{Models Overview}
-        \item \textbf{Decision Tree:}
+        \item \textbf{Decision Tree (Best AUC-ROC Score):}
         \begin{itemize}
             \item Simple and interpretable tree-based model.
             \item Tends to overfit but works well with proper pruning and parameter tuning.
@@ -602,7 +600,7 @@
         \end{itemize}
     \begin{figure}
         \centering
-        \includegraphics[width=0.5\textwidth]{images/mlp.png} % Replace with an image showing MLP and SVM visuals
+        \includegraphics[width=0.45\textwidth]{images/mlp.png} % Replace with an image showing MLP and SVM visuals
         \caption{MLP Results Overview}
     \end{figure}
     \end{itemize}
@@ -616,7 +614,7 @@
         \end{itemize}
     \begin{figure}
         \centering
-        \includegraphics[width=0.5\textwidth]{images/svm.png} % Replace with an image showing MLP and SVM visuals
+        \includegraphics[width=0.4\textwidth]{images/svm.png} % Replace with an image showing MLP and SVM visuals
         \caption{SVM Results Overview}
     \end{figure}
 \end{frame}
@@ -624,16 +622,9 @@
 % Slide 7: Conclusion
 \begin{frame}{Conclusion}
     \begin{itemize}
-        \item \textbf{Key Insights:}
-        \begin{itemize}
-            \item In general, fraud detection relies on feature interactions and temporal patterns.
-            \item Data preparation and imbalance handling significantly impact performance.
-        \end{itemize}
-        \item \textbf{Next Steps:}
-        \begin{itemize}
-            \item Explore deep learning models for non-linear relationships.
-            \item Enhance feature engineering (e.g., geographic and demographic interactions).
-        \end{itemize}
+        \item The \textbf{Decision Tree} performed the best, but with modest results.
+        \item Valuable insights were gained by following systematic steps.
+        \item The approach shows potential for better outcomes with real-world data.
     \end{itemize}
 \end{frame}
 
